@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="manifest.xsd">
+  <!-- Extension ID -->
+  <Id>com.example.colorpalettegenerator</Id>
+  
+  <Name>Color Palette Generator</Name>
+  <Version>1.0</Version>
+
+  <HostList>
+    <Host Name="PHXS" Version="[22.0,]" />
+  </HostList>
+
+  <DispatchInfoList>
+    <Extension Id="com.example.colorpalettegenerator">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./html/index.html</MainPath>
+        </Resources>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Color Palette Generator</Menu>
+          <Geometry>
+            <Size>
+              <Height>400</Height>
+              <Width>300</Width>
+            </Size>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension
